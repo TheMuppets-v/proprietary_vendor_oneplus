@@ -1096,7 +1096,38 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
     vendor/oneplus/sdm845-common/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
     vendor/oneplus/sdm845-common/proprietary/vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_version_update_ecc_table.sql \
-    vendor/oneplus/sdm845-common/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
+    vendor/oneplus/sdm845-common/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql \
+    vendor/oneplus/sdm845-common//proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk \
+    vendor/oneplus/sdm845-common//proprietary/product/priv-app/HotwordEnrollmentOKGoogleWCD9340_SDM845/HotwordEnrollmentOKGoogleWCD9340_SDM845.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/product/priv-app/HotwordEnrollmentOKGoogleWCD9340_SDM845/HotwordEnrollmentOKGoogleWCD9340_SDM845.apk \
+    vendor/oneplus/sdm845-common//proprietary/product/priv-app/HotwordEnrollmentXGoogleWCD9340_SDM845/HotwordEnrollmentXGoogleWCD9340_SDM845.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/product/priv-app/HotwordEnrollmentXGoogleWCD9340_SDM845/HotwordEnrollmentXGoogleWCD9340_SDM845.apk \
+    vendor/oneplus/sdm845-common//proprietary/system/framework/qcnvitems.jar:$(TARGET_COPY_OUT_VENDOR)/proprietary/system/framework/qcnvitems.jar \
+    vendor/oneplus/sdm845-common//proprietary/system/framework/tcmclient.jar:$(TARGET_COPY_OUT_VENDOR)/proprietary/system/framework/tcmclient.jar \
+    vendor/oneplus/sdm845-common//proprietary/system/framework/WfdCommon.jar:$(TARGET_COPY_OUT_VENDOR)/proprietary/system/framework/WfdCommon.jar \
+    vendor/oneplus/sdm845-common//proprietary/system_ext/app/NxpNfcNci/NxpNfcNci.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/system_ext/app/NxpNfcNci/NxpNfcNci.apk \
+    vendor/oneplus/sdm845-common//proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk \
+    vendor/oneplus/sdm845-common//proprietary/system_ext/app/SoterService/SoterService.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/system_ext/app/SoterService/SoterService.apk \
+    vendor/oneplus/sdm845-common//proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar:$(TARGET_COPY_OUT_VENDOR)/proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar \
+    vendor/oneplus/sdm845-common//proprietary/system_ext/framework/com.nxp.nfc.jar:$(TARGET_COPY_OUT_VENDOR)/proprietary/system_ext/framework/com.nxp.nfc.jar \
+    vendor/oneplus/sdm845-common//proprietary/system_ext/framework/com.qti.dpmframework.jar:$(TARGET_COPY_OUT_VENDOR)/proprietary/system_ext/framework/com.qti.dpmframework.jar \
+    vendor/oneplus/sdm845-common//proprietary/system_ext/framework/dpmapi.jar:$(TARGET_COPY_OUT_VENDOR)/proprietary/system_ext/framework/dpmapi.jar \
+    vendor/oneplus/sdm845-common//proprietary/system_ext/framework/qcrilhook.jar:$(TARGET_COPY_OUT_VENDOR)/proprietary/system_ext/framework/qcrilhook.jar \
+    vendor/oneplus/sdm845-common//proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
+    vendor/oneplus/sdm845-common//proprietary/system_ext/priv-app/IFAAService/IFAAService.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/system_ext/priv-app/IFAAService/IFAAService.apk \
+    vendor/oneplus/sdm845-common//proprietary/system_ext/priv-app/ims/ims.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/system_ext/priv-app/ims/ims.apk \
+    vendor/oneplus/sdm845-common//proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
+    vendor/oneplus/sdm845-common//proprietary/system_ext/priv-app/WfdService/WfdService.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/system_ext/priv-app/WfdService/WfdService.apk \
+    vendor/oneplus/sdm845-common//proprietary/vendor/app/CneApp/CneApp.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/app/CneApp/CneApp.apk \
+    vendor/oneplus/sdm845-common//proprietary/vendor/app/IWlanService/IWlanService.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/app/IWlanService/IWlanService.apk \
+    vendor/oneplus/sdm845-common//proprietary/vendor/app/TimeService/TimeService.apk:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/app/TimeService/TimeService.apk \
+    vendor/oneplus/sdm845-common//proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml \
+    vendor/oneplus/sdm845-common//proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml \
+    vendor/oneplus/sdm845-common//proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor/oneplus/sdm845-common//proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml \
+    vendor/oneplus/sdm845-common//proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/lib/libfastcvopt.so \
+    vendor/oneplus/sdm845-common//proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/lib/libthermalclient.so \
+    vendor/oneplus/sdm845-common//proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/lib64/libfastcvopt.so \
+    vendor/oneplus/sdm845-common//proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/lib64/libthermalclient.so \
+    vendor/oneplus/sdm845-common/myLogScript.sh:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/myLogScript.sh
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
