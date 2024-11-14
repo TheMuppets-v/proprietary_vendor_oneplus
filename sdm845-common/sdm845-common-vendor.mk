@@ -1126,8 +1126,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common//proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/lib/libfastcvopt.so \
     vendor/oneplus/sdm845-common//proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/lib/libthermalclient.so \
     vendor/oneplus/sdm845-common//proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/lib64/libfastcvopt.so \
-    vendor/oneplus/sdm845-common//proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/lib64/libthermalclient.so \
-    vendor/oneplus/sdm845-common/myLogScript.sh:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/myLogScript.sh
+    vendor/oneplus/sdm845-common//proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/proprietary/vendor/lib64/libthermalclient.so
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
